@@ -1,0 +1,49 @@
+.nav-links {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	button {
+		cursor: pointer;
+		border: 1px solid #292929;
+		color: #292929;
+		background: transparent;
+		padding: 0.5rem;
+		font: inherit;
+		&:focus {
+			outline: none;
+		}
+		&:hover {
+			background: #292929;
+			color: white;
+		}
+		&:active {
+			background: #292929;
+			color: white;
+		}
+	}
+}
+@media (min-width: 768px) {
+	.nav-links {
+		flex-direction: row;
+		button {
+			border: 1px solid white;
+			color: white;
+			background: transparent;
+			&:hover {
+				background: #2e9ad1;
+				color: white;
+			}
+			&:active {
+				background: #2e9ad1;
+				color: white;
+			}
+		}
+	}
+}
