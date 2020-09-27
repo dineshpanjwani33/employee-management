@@ -5,10 +5,10 @@ This project was bootstrapped with [Create React App]
 To get the frontend running locally:
 
 ```sh
-$ git clone https://github.com/dineshpanjwani33/employee-management.git
-$ cd employee-management
-$ npm install
-$ npm start
+ git clone https://github.com/dineshpanjwani33/employee-management.git
+ cd employee-management
+ npm install
+ npm start
 ```
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
